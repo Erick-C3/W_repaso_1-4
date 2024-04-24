@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+p{
+    animation: agrandar 2s infinite;
+}
+
+p:hover{
+    background-color: rgb(218, 121, 121);
+    border: 3px dotted blue;
+}
+
+
+
+@keyframes agrandar {
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+
+#contenedor-parrafos{
+    display: grid;
+    text-align: center;
+}
